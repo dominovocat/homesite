@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+.smallinfo{
+  background-color: var(--accent-color);
+  border-radius: 20px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+.prava{
+  font-size: 25px;
+  color:var(--text-color);
+  padding-left: 30px;
+}
+.other{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.phnum{
+  display: flex;
+  flex-direction: column;
+
+}
+.photonum{
+  display: flex;
+  text-align: center;
+
+  padding-right: 30px;
+}
+
+.number{
+  font-size: 25px;
+  color:var(--text-color);
+}
+.consul{
+  color: var(--text-color);
+  text-align: center;
+  font-size: 15px;
+}
+.btn{
+  border: 1px solid white;
+  margin-right: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.login{
+color: var(--text-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.log{
+width: 30px;
+height: 30px;
+margin-bottom: 10px;
+}
+.register{
+font-size: 15px;
+}
+.slide{
+  display: none;
+}
+
+
+
+@media screen and (max-width:996px){
+  .other{
+    display: none;
+  }
+  .slide{
+    display: block;
+    width: 100px;
+  }
+}
