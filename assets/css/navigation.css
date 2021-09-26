@@ -11,13 +11,20 @@ ul {
 }
 a {
   text-decoration: none;
-  color: inherit;
+}
+.navigation {
+  border-top: 2px solid grey;
+  margin-top: 10px;
+}
+.navigation>*{
+  width: 100%;
 }
 .nav-list {
-margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
   margin-left: 20px;
   font-size: 0px;
-  border-top: 2px solid grey;
 }
 .list-item {
   display: inline-block;
@@ -52,21 +59,29 @@ margin-top: 20px;
 
 .subsub-nav-list {
   position: absolute;
-  top:0;
+  top: 0;
   display: none;
-  
 }
-.subsub-list{
+.subsub-list {
   display: block;
   text-align: center;
   text-transform: capitalize;
-
 }
 .list-item:hover > .subsub-nav-list {
   display: block;
 }
-.posi{
+.posi {
   position: absolute;
   width: 100%;
   left: 100%;
+}
+.search{
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+@media screen and (max-width:992px){
+  .nav-list{
+    display: none;
+  }
 }
