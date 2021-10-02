@@ -28,9 +28,9 @@ a {
 }
 .list-item {
   display: inline-block;
-  background-color: teal;
-  color: white;
-  border: 1px solid rgb(1, 90, 90);
+  background-color: none;
+  color: black;
+  border: none;
   position: relative;
   font-size: 16px;
   font-family: sans-serif;
@@ -80,7 +80,7 @@ a {
   width: 30px;
   height: 30px;
 }
-@media screen and (max-width:992px){
+@media screen and (max-width:1024px){
   .nav-list{
     display: none;
   }
