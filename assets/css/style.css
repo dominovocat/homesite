@@ -1,7 +1,7 @@
 :root {
   --accent-color: rgb(14, 224, 14);
   --text-color: white;
-  --footer-color: rgb(6, 6, 163);
+  --footer-color: rgb(1, 1, 58);
 }
 html {
   scroll-behavior: smooth;

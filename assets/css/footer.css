@@ -1,0 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+.footer{
+    background: var(--footer-color);
+    color: var(--text-color);
+}
