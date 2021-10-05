@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+.services{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.our-services{
+  margin: 0 auto;
+}
+.serv{
+  font-size: 35px;
+  color: var(--accent-color);
+}
+.infoService{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.imageSlide{
+  display: flex;
+}
+.slideImage{
+  display: none;
+}
+.innerText{
+  background-image: url(../images/a48ceba7baf9de7b45d0cbfebecfbb86\ 5.png);
+  width: 250px;
+  height: 350px;
+  margin: 0 auto;
+}
+@media screen and (min-width:768px){
+  .slideImage{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 30px;
+  }
+}
