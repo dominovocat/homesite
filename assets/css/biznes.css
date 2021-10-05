@@ -3,10 +3,44 @@
 }
 .biznes {
 }
-.background{
-    background-image: url(../images/image.png);
+.background {
+  background-image: url(../images/image.png);
   background-position: center;
   width: 100%;
   height: 285px;
   border-radius: 25px 25px 25px 25px;
+}
+.upperBackground {
+  background-image: url(../images/Rectangle\ 256.png);
+  height: 100%;
+  width: 100%;
+  background-position: left;
+  background-size: cover;
+}
+.innerContainer {
+  margin-top: 60px;
+  max-width: 400px;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 60%;
+  background-color: var(--text-color);
+  border-radius: 15px 15px;
+}
+.innerBiznes {
+}
+.bizArticle {
+  margin-top: 20px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 30px;
+  color: var(--accent-color);
+}
+.infoBiz {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.innerContainer > .btn {
+  margin-top: 20px;
 }
